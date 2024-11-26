@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #fbfbfb1d;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(93, 98, 90);
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    background: red;
+    padding: 5px;
+    border-radius: 4px;
+}
+.menu{
+    background: #bcb6b6;
+
+    margin-bottom: 20px;
+}
+.menuitems{
+    display: flex;
+    gap: 2rem;
+}
+.menuitems a{
+    text-decoration: none;
+    color:black;
+font-size: 20px;
+    padding: 10px;
+}
+.menuitems a:hover{
+background: red;
+
+}
+.table{
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+    border-collapse: collapse;
+    
+    
+   
+}
+.table table{
+    width: 90vw;
+
+}
+
+
+
+.table tr th{
+    padding: 10px;
+    background:  rgb(101, 212, 140);
+    border: 1px solid #ddd;
+    padding: 8px;
+    color:white;
+    font-size: 20px;
+}
+.table tr td{
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.details{
+    padding: 5px;
+    font-size: 20px;
+   color: rgb(252, 249, 249);
+    background-color: rgb(91, 180, 221);
+   border: none;
+   cursor: pointer;
+}
+.details:hover{
+    background-color: rgb(101, 109, 122);
+}

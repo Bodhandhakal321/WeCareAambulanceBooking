@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    rgba(69, 108, 226, 0.566),
+    rgba(173, 58, 94, 0.615)
+  );
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.content {
+  background: #e72150;
+  
+
+  width: 25%;
+  height: 30rem;
+  color: white;
+}
+.content h1 {
+  padding: 10px;
+}
+.content p {
+  padding: 10px;
+}
+.content img {
+  margin-top: 20px;
+}
+
+.form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  height: 30rem;
+  padding: 10px;
+}
+.form h1 {
+  color: #e72150;
+  margin-bottom: 0.58rem;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.form input {
+  max-width: 20rem;
+  margin-left: 10px;
+  padding: 5px;
+
+  border: 2px solid black;
+}
+h1#form {
+  font-size: 1.5rem;
+}
+
+.classbtn {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 1rem;
+}
+input.sub {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 25px;
+  font-size: bold;
+  font-weight: bolder;
+  background: #e72150;
+  color: white;
+  flex: 1 1 100%;
+  max-width: 150px;
+  cursor: pointer;
+}
+input.sub:hover{
+  background: #236bde5c;
+
+}
+
+.su{
+  padding: 10px;
+border-radius: 10px;
+border: none;
+font-size: 25px;
+font-size: bold;
+font-weight: bolder;
+background: green;
+color: white;
+flex: 1 1 100%;
+max-width: 110px;
+cursor: pointer;
+
+}
+.su:hover{
+  background: greenyellow;
+}
+.rightform {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.label_class {
+  /* padding-left: 14px; */
+  margin: 9px;
+}
+.label_class1 {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 1010px) {
+  img {
+    height: 157px;
+    width: 178px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .label_class1 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 703px){
+  img{
+    display: none;
+  }
+}
+@media screen and (max-width: 658px){
+  h1{
+
+  }
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    background-color: #809faa;
+
+}
+.title h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+title h1::after{
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #000;
+    display: block;
+    margin: auto;
+}
+.modal{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1); 
+    display: none;
+    transition: transform 0.4s, top 0.4s;
+}
+.modal-content{
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;  
+}
+
+.popup h6{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color:inherit;
+    color: #e14c4c;
+    border: 0;
+    outline: none;
+    font-size:18px;
+    border-radius: 4px;
+    cursor: pointer;
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
+
+}
+.modal-content .cross{
+    position: absolute;
+    right: 10px;
+    /* background-color: red; */
+    cursor: pointer;
+
+}
+
+.services{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+
+}
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 10px 10px;
+    background-color: #efefef;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.card:hover{
+    background-color:#b8d4de;
+    
+}
+.card .icon{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.card h2{
+    font-size: 15px;
+    color: #c94f4f;
+    
+}
+.card p{
+    font-size:12px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #5e5e5e;
+
+}
+.button{
+    font-size: 15px;
+    text-decoration:none;
+    color: #fff;
+    background-color: #2c677c;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #c94f4f;
+    
+}
+@media screen and (max-width:460px) {
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width:85%;
+        display: flex;
+        margin:20px 0px;
+    }
+    
+}
